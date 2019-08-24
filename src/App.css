@@ -10,18 +10,84 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 3vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 1.5vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+.outputMain {
+  margin: 0 auto;
+
+}
+
+.inputText {
+   width: 100%; 
+  padding: 5px 5px;
+}
+
+.inputDisplay {
+  color: #07237c;
+  width: 300px;
+  border: 15px solid yellow;
+  padding: 30px;
+  margin: 10px;
+  text-align: justify;
+  
+
+  left:800px;
+ 
+}
+
+
+.outputDisplay {
+  color: #07237c;
+  width: 400px;
+  border: 15px solid green;
+  padding: 30px;
+  margin: 10px;
+  text-align: justify;
+  float:left;
+  position:absolute; 
+  left:300px;
+}
+
+.queueDisplay {
+  color: #07237c;
+  width: 400px;
+  border: 15px solid red;
+  padding: 30px;
+  margin: 10px;
+  text-align: justify;
+  float:none;
+  position:absolute; 
+  left:800px;
+
+}
+
+.compositeDisplay {
+  color: #07237c;
+  width: 400px;
+  border: 15px solid blue;
+  padding: 30px;
+  margin: 10px;
+  text-align: justify;
+  float:none;
+  position:absolute; 
+  left:1300px;
+ }
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
